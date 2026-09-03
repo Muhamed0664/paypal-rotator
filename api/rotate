@@ -1,0 +1,50 @@
+import { Redis } from '@upstash/redis';
+
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN,
+});
+
+// ضع إيميلاتك الـ 10 هنا بين العلامات " "
+const PAYPAL_EMAILS = [
+  "email1@example.com",
+  "email2@example.com",
+  "email3@example.com",
+  "email4@example.com",
+  "email5@example.com",
+  "email6@example.com",
+  "email7@example.com",
+  "email8@example.com",
+  "email9@example.com",
+  "email10@example.com"
+];
+
+export default async function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
+  try {
+    let currentIndex = await redis.get('paypal_index');
+    currentIndex = currentIndex === null ? 0 : parseInt(currentIndex, 10);
+
+    const selectedEmail = PAYPAL_EMAILS[currentIndex % PAYPAL_EMAILS.length];
+    const nextIndex = (currentIndex + 1) % PAYPAL_EMAILS.length;
+    
+    await redis.set('paypal_index', nextIndex);
+
+    return res.status(200).json({
+      success: true,
+      email: selectedEmail,
+      index: currentIndex
+    });
+  } catch (error) {
+    return res.status(200).json({
+      success: false,
+      email: PAYPAL_EMAILS[0]
+    });
+  }
+}
