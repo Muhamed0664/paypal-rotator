@@ -1,8 +1,14 @@
 {
-  "rewrites": [
+  "functions": {
+    "api/rotate.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
     {
-      "source": "/api/rotate",
-      "destination": "/api/rotate.js"
+      "src": "/api/rotate",
+      "dest": "/api/rotate.js"
     }
   ]
 }
