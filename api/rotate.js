@@ -2,9 +2,9 @@ import { Redis } from '@upstash/redis';
 
 // أدخل إيميلات بايبال الخاصة بك هنا بالترتيب
 const EMAILS = [
-  "email1@paypal.com",
-  "email2@paypal.com",
-  "email3@paypal.com"
+  "admirmehic@freenet.de",
+  "alijajahice@freenet.de",
+  "ardjanzaimi@freenet.de"
 ];
 
 const redis = new Redis({
