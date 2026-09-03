@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/rotate",
+      "destination": "/api/rotate.js"
+    }
+  ]
+}
