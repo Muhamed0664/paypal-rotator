@@ -4,8 +4,10 @@ import { Redis } from '@upstash/redis';
 const EMAILS = [
   "oakzenukstore4@outlook.com",
   "oakzenshop@outlook.com",
-  "oakzenukstore@outlook.com",
-  "barrelmakersuk@outlook.com"
+  "belmoraukstore@outlook.com",
+  "belmorastoreuk@outlook.com",
+  "belmoraorders@outlook.com",
+  "belmorastoreu@outlook.com"
 ];
 
 const redis = new Redis({
