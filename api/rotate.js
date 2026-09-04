@@ -4,6 +4,8 @@ import { Redis } from '@upstash/redis';
 const EMAILS = [
   "helenagill2@freenet.de",
   "ardjanzaimi@freenet.de",
+  "helenagill2@freenet.de",
+  "ardjanzaimi@freenet.de",
   "mertys66@freenet.de"
 ];
 
