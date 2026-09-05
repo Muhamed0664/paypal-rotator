@@ -2,10 +2,10 @@ import { Redis } from '@upstash/redis';
 
 // أدخل إيميلات بايبال الخاصة بك هنا بالترتيب
 const EMAILS = [
-  "electraworksltd@freenet.de",
+  "powertechltd@freenet.de",
   "electrocoreltd@freenet.de",
   "electrohubltd@freenet.de",
-  "powertechltd@freenet.de"
+  "electraworksltd@freenet.de"
 ];
 
 const redis = new Redis({
