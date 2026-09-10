@@ -25,6 +25,9 @@ const EMAILS = [
   "primepowerltd@freenet.de",
   "techelectroltd@freenet.de",
   "circuitworksltd@freenet.de",
+  "techpowerltd@freenet.de",
+  "techcircuitltd@freenet.de",
+  "powerdynamicsltd@freenet.de",
   "voltflowltd@freenet.de",
   "electraworksltd@freenet.de"
 ];
