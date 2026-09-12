@@ -31,7 +31,12 @@ const EMAILS = [
   "voltflowltd@freenet.de",
   "so2.it@freenet.de",
   "greenbookonline@freenet.de",
-  "electroretailltd@freenet.de",
+  "corepowerltd@freenet.de",
+  "techcomponentsltd@freenet.de",
+  "techequipmentltd@freenet.de",
+  "techindustrialltd@freenet.de",
+  "techindustrialltd@freenet.de",
+  "voltdistributionltd@freenet.de",
   "fansmaniasas.it@freenet.de",
   "electraworksltd@freenet.de"
 ];
