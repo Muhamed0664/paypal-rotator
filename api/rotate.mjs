@@ -5,12 +5,12 @@ const EMAILS = [
   "techindustrialllc@freenet.de",
   "voltdistributionllc@freenet.de",
   "voltflowllc@freenet.de",
-  "electrocorellc@freenet.de"
-  "electrogearllc@freenet.de"
-  "electrohubllc@freenet.de"
-  "electronovallc@freenet.de"
-  "nexavoltllc@freenet.de"
-  "powerconnectllc@freenet.de"
+  "electrocorellc@freenet.de",
+  "electrogearllc@freenet.de",
+  "electrohubllc@freenet.de",
+  "electronovallc@freenet.de",
+  "nexavoltllc@freenet.de",
+  "powerconnectllc@freenet.de",
   "techelectrolllc@freenet.de",
   "powertechllc@freenet.de",
   "fansmaniasas.it@freenet.de",
