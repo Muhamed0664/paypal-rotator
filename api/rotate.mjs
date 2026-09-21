@@ -14,6 +14,10 @@ const EMAILS = [
   "techelectrolllc@freenet.de",
   "powertechllc@freenet.de",
   "fansmaniasas.it@freenet.de",
+  "techindustriainc@freenet.de",
+  "voltdistributioninc@freenet.de",
+  "voltflowinc@freenet.de",
+  "electrocoreinc@freenet.de",
   "electraworksltd@freenet.de"
 ];
 
