@@ -4,20 +4,13 @@ import { Redis } from '@upstash/redis';
 const EMAILS = [
   "techindustriallimited@freenet.de",
   "voltdistributionlimited@freenet.de",
-  "voltflowllc@freenet.de",
-  "electrocorellc@freenet.de",
-  "electrogearllc@freenet.de",
-  "electrohubllc@freenet.de",
-  "electronovallc@freenet.de",
-  "nexavoltllc@freenet.de",
-  "powerconnectllc@freenet.de",
-  "techelectrolllc@freenet.de",
-  "powertechllc@freenet.de",
-  "fansmaniasas.it@freenet.de",
-  "techindustriainc@freenet.de",
-  "voltdistributioninc@freenet.de",
-  "voltflowinc@freenet.de",
-  "electrocoreinc@freenet.de",
+  "voltflowlimited@freenet.de",
+  "electrocorelimited@freenet.de",
+  "electrogearlimited@freenet.de",
+  "electrohublimited@freenet.de",
+  "electronovalimited@freenet.de",
+  "nexavoltlimited@freenet.de",
+  "powerconnectlimited@freenet.de",
   "electraworksltd@freenet.de"
 ];
 
