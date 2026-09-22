@@ -2,8 +2,8 @@ import { Redis } from '@upstash/redis';
 
 // أدخل إيميلات بايبال الخاصة بك هنا بالترتيب
 const EMAILS = [
-  "techindustrialllc@freenet.de",
-  "voltdistributionllc@freenet.de",
+  "techindustriallimited@freenet.de",
+  "voltdistributionlimited@freenet.de",
   "voltflowllc@freenet.de",
   "electrocorellc@freenet.de",
   "electrogearllc@freenet.de",
