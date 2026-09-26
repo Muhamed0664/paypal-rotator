@@ -11,6 +11,13 @@ const EMAILS = [
   "electrohublimited@freenet.de",
   "electronovalimited@freenet.de",
   "nexavoltlimited@freenet.de",
+  "shopifyorder1007@freenet.de",
+  "shopifyorder1008@freenet.de",
+  "shopifyorder1009@freenet.de",
+  "shopifyorder1010@freenet.de",
+  "shopifyorder1011@freenet.de",
+  "shopifyorder1012@freenet.de",
+  "shopifyorder1013@freenet.de",
   "powerconnectlimited@freenet.de",
   "electraworksltd@freenet.de"
 ];
