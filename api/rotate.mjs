@@ -3,23 +3,16 @@ import { Redis } from '@upstash/redis';
 // أدخل إيميلات بايبال الخاصة بك هنا بالترتيب
 const EMAILS = [
   "techindustriallimited@freenet.de",
-  "voltdistributionlimited@freenet.de",
-  "shopifyorder1006@freenet.de",
-  "voltflowlimited@freenet.de",
-  "electrocorelimited@freenet.de",
-  "electrogearlimited@freenet.de",
-  "electrohublimited@freenet.de",
-  "electronovalimited@freenet.de",
-  "nexavoltlimited@freenet.de",
-  "shopifyorder1007@freenet.de",
-  "shopifyorder1008@freenet.de",
-  "shopifyorder1009@freenet.de",
-  "shopifyorder1010@freenet.de",
-  "shopifyorder1011@freenet.de",
-  "shopifyorder1012@freenet.de",
-  "shopifyorder1013@freenet.de",
-  "powerconnectlimited@freenet.de",
-  "electraworksltd@freenet.de"
+  "shopifyorder1033@freenet.de",
+  "shopifyorder1034@freenet.de",
+  "shopifyorder1035@freenet.de",
+  "shopifyorder1036@freenet.de",
+  "shopifyorder1037@freenet.de",
+  "shopifyorder1038@freenet.de",
+  "shopifyorder1039@freenet.de",
+  "shopifyorder1040@freenet.de",
+  "shopifyorder1041@freenet.de",
+  "shopifyorder1042@freenet.de"
 ];
 
 const redis = new Redis({
