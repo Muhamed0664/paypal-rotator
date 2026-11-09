@@ -178,6 +178,7 @@ const EMAILS = [
   "shopifyorder1317@freenet.de",
   "shopifyorder1317@freenet.de",
   "shopifyorder1317@freenet.de",
+  "shopifyorder1317@freenet.de",
   "shopifyorder1042@freenet.de"
 ];
 
