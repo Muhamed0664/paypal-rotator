@@ -124,6 +124,22 @@ const EMAILS = [
   "shopifyorder1525@freenet.de",
   "shopifyorder1525@freenet.de",
   "shopifyorder1527@freenet.de",
+  "shopifyorder1536@freenet.de",
+  "shopifyorder1537@freenet.de",
+  "shopifyorder1538@freenet.de",
+  "shopifyorder1539@freenet.de",
+  "shopifyorder1540@freenet.de",
+  "shopifyorder1541@freenet.de",
+  "shopifyorder1542@freenet.de",
+  "shopifyorder1543@freenet.de",
+  "shopifyorder1544@freenet.de",
+  "shopifyorder1545@freenet.de",
+  "shopifyorder1546@freenet.de",
+  "shopifyorder1547@freenet.de",
+  "shopifyorder1548@freenet.de",
+  "shopifyorder1549@freenet.de",
+  "shopifyorder1550@freenet.de",
+  "shopifyorder1551@freenet.de",
   "shopifyorder1042@freenet.de"
 ];
 
